@@ -119,8 +119,8 @@ h6 { font-size: 16px; }
 .cavani_tm_all_wrap,
 .cavani_tm_all_wrap *{
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */
+	-moz-box-sizing: border-box; /* Firefox, other Gecko */
+	box-sizing: border-box; /* Opera/IE 8+ */
 }
 #preloader{
     position: fixed;
@@ -2221,5 +2221,6 @@ h6 { font-size: 16px; }
 	backdrop-filter: blur(10px);
 	-webkit-backdrop-filter: blur(10px);
 }
+
 
 
