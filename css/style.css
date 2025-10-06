@@ -97,7 +97,10 @@ h1, h2, h4, h5, h6{
 	font-family: "Futura";
 	color: #333;
 }
-
+p12{
+font-size: 15px;
+color: #4CAF50;
+}
 
 h1 { font-size: 45px; }
 h2 { font-size: 36px; }
@@ -118,7 +121,6 @@ h6 { font-size: 16px; }
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
-			color: #cccccc;
 }
 #preloader{
     position: fixed;
@@ -1438,6 +1440,11 @@ h6 { font-size: 16px; }
 	position: relative;
 	overflow: hidden;
 	margin-bottom: 37px;
+}
+.cavani_tm_modalbox .popup_details .top_image img{
+	position: relative;
+	min-width: 100%;
+	opacity: 0;
 }
 .cavani_tm_modalbox .popup_details .top_image img{
 	position: relative;
