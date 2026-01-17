@@ -175,11 +175,11 @@ function cavani_tm_circular_progress(){
 // -------------------------------------------------
 
 function cavani_tm_portfolio_popup(){
-	
+
 	"use strict";
-	
+
 	var modalBox		= jQuery('.cavani_tm_modalbox');
-	var button			= jQuery('.cavani_tm_portfolio .portfolio_popup');
+	var button			= jQuery('.cavani_tm_portfolio .portfolio_popup, .cavani_tm_competences .portfolio_popup, .cavani_tm_competences .list_inner');
 	var closePopup		= modalBox.find('.close');
 	
 	button.off().on('click',function(){
@@ -378,19 +378,19 @@ function cavani_tm_popup(){
 function cavani_tm_portfolio(){
 
 	"use strict";
-	
+
 	if(jQuery().isotope) {
 
 		// Needed variables
-		var filter		 = jQuery('.cavani_tm_portfolio .portfolio_filter ul');
+		var filter = jQuery('.portfolio_filter, .competences_filter');
 
 		if(filter.length){
-			// Isotope Filter 
+			// Isotope Filter
 			filter.find('a').on('click', function(){
 				var element		= jQuery(this);
 				var selector 	= element.attr('data-filter');
-				var list		= element.closest('.cavani_tm_portfolio').find('.portfolio_list').children('ul');
-				list.isotope({ 
+				var list		= element.closest('.cavani_tm_portfolio, .cavani_tm_competences').find('.portfolio_list, .competences_list').children('ul');
+				list.isotope({
 					filter				: selector,
 					animationOptions	: {
 						duration			: 750,
@@ -398,11 +398,11 @@ function cavani_tm_portfolio(){
 						queue				: false
 					}
 				});
-				
+
 				filter.find('a').removeClass('current');
 				element.addClass('current');
 				return false;
-			});	
+			});
 		}
 	}
 }
