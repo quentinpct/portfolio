@@ -19,7 +19,7 @@ body{
 	letter-spacing: 0px;
 	word-wrap: break-word;
 	font-weight: 400;
-	background-color: #3b3b3b;
+	background-color: #d9d9d9;
 }
 svg{
 	fill: currentcolor;
@@ -97,15 +97,12 @@ h1, h2, h4, h5, h6{
 	font-family: "Futura";
 	color: #333;
 }
-p12{
-font-size: 15px;
-color: #4CAF50;
-}
+
 
 h1 { font-size: 45px; }
 h2 { font-size: 36px; }
 h3 { font-size: 30px;
-color:#4CAF50; }
+color:#a6633c; }
 h4 { font-size: 24px; }
 h5 { font-size: 20px; }
 h6 { font-size: 16px; }
@@ -118,9 +115,10 @@ h6 { font-size: 16px; }
 }
 .cavani_tm_all_wrap,
 .cavani_tm_all_wrap *{
+	width: 100;
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box; /* Firefox, other Gecko */
-	box-sizing: border-box; /* Opera/IE 8+ */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
 }
 #preloader{
     position: fixed;
@@ -252,7 +250,7 @@ h6 { font-size: 16px; }
 	right: 0px;
 	height: 70px;
 	line-height: 70px;
-	background-color: #333333;
+	background-color: #bbbbbb;
 	z-index: 10;
 	display: flex;
 	align-items: center;
@@ -276,7 +274,7 @@ h6 { font-size: 16px; }
 }
 .cavani_tm_header .menu ul li a{
 	text-decoration: none;
-	color: #4CAF50;
+	color: #a6633c;
 	font-family: "Poppins";
 	font-weight: 500;
 	padding: 0px 30px;
@@ -295,7 +293,7 @@ h6 { font-size: 16px; }
 	display: block;
 	top: 15px;
 	bottom: 15px;
-	background-color: #4CAF50;
+	background-color: #a6633c;
 	z-index: -1;
 	
 	-webkit-transition: all .5s ease;
@@ -306,13 +304,13 @@ h6 { font-size: 16px; }
 }
 
 .cavani_tm_header .menu ul li.mleave.active a{
-	color: #cccccc;
+	color: #bbbbbb;
 }
 .cavani_tm_header .menu ul li.active a{
-	color: #cccccc;
+	color: #bbbbbb;
 }
 .cavani_tm_header .menu ul li a:hover{
-	color: #cccccc;
+	color: #bbbbbb;
 }
 
 /*---------------------------------------------------*/
@@ -325,7 +323,7 @@ h6 { font-size: 16px; }
 	left: 0px;
 	right: 0px;
 	height: 50px;
-	background-color: #4CAF50;
+	background-color: #a6633c;
 	z-index: 20;
 	display: none;
 }
@@ -416,7 +414,7 @@ h6 { font-size: 16px; }
 }
 .cavani_tm_mobile_menu .menu_list ul li a{
 	text-decoration: none;
-	color: #cccccc;
+	color: #7c7c7c;
 	font-family: "Poppins";
 }
 .cavani_tm_mobile_menu .social{
@@ -437,14 +435,14 @@ h6 { font-size: 16px; }
 }
 .cavani_tm_mobile_menu .social ul li a{
 	text-decoration: none;
-	color: #cccccc;
+	color: #7c7c7c;
 }
 .cavani_tm_mobile_menu .copyright{
 	width: 100%;
 	float: left;
 }
 .cavani_tm_mobile_menu .copyright p{
-	color: #cccccc;
+	color: #7c7c7c;
 	font-family: "Poppins";
 }
 
@@ -542,7 +540,7 @@ h6 { font-size: 16px; }
 	bottom: 0px;
 	right: 0px;
 	width: 100px;
-	background-color: #3b3b3b;
+	background-color: #d9d9d9;
 }
 
 /*---------------------------------------------------*/
@@ -565,7 +563,7 @@ h6 { font-size: 16px; }
 	font-weight: 600;
 	text-transform: uppercase;
 	margin-bottom: 30px;
-	color:#4CAF50;
+	color:#a6633c;
 	letter-spacing: -2px;
 }
 .cavani_tm_home .line{
@@ -581,11 +579,11 @@ h6 { font-size: 16px; }
 	font-weight: 300;
 }
 .cavani_tm_home .job span{
-	color: #4CAF50;
+	color: #a6633c;
 }
 .cavani_tm_home .job b{
 	font-weight:600;
-	color: #4CAF50;
+	color: #a6633c;
 }
 .cavani_tm_button{
 	width: 100%;
@@ -595,9 +593,9 @@ h6 { font-size: 16px; }
 }
 .cavani_tm_button a{
 	text-decoration: none;
-	color: #cccccc;
+	color: #7c7c7c;
 	display: inline-block;
-	background-color: #4CAF50;
+	background-color: #a6633c;
 	padding: 13px 38px;
 	border: 2px solid rgb(205, 205, 205);
 	font-family: "Poppins";
@@ -611,7 +609,7 @@ h6 { font-size: 16px; }
 }
 .cavani_tm_button a:hover{
 	background-color: transparent;
-	color: #cccccc;
+	color: #7c7c7c;
 }
 .cd-headline.clip .cd-words-wrapper::after{
 	height: 70%;
@@ -653,7 +651,7 @@ h6 { font-size: 16px; }
 	display: inline-block;
 	position: relative;
 	font-family: "Futura";
-	color: #cccccc;
+	color: #7c7c7c;
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 8px;
@@ -680,7 +678,7 @@ h6 { font-size: 16px; }
 }
 .cavani_tm_about .biography .left{
 	width: 40%;
-	color: #cccccc;
+	color: #7c7c7c;
 }
 .cavani_tm_about .biography .left p{
 	margin-bottom: 15px;
@@ -690,7 +688,7 @@ h6 { font-size: 16px; }
 }
 .cavani_tm_about .biography .right{
 	width: 50%;
-	color: #cccccc;
+	color: #7c7c7c;
 
 }
 .cavani_tm_about .biography .right ul{
@@ -714,7 +712,7 @@ h6 { font-size: 16px; }
 }
 .cavani_tm_about .biography .right ul li a{
 	text-decoration: none;
-	color: #cccccc;
+	color: #7c7c7c;
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -723,7 +721,7 @@ h6 { font-size: 16px; }
 	        transition: all .3s ease;
 }
 .cavani_tm_about .biography .right ul li a:hover{
-	color: #cccccc;
+	color: #7c7c7c;
 }
 .cavani_tm_about .services{
 	width: 100%;
@@ -747,12 +745,12 @@ h6 { font-size: 16px; }
 	margin-top: 55px;
 }
 .cavani_tm_about .services .service_list{
-	color: #cccccc;
+	color: #7c7c7c;
 	width: 40%;
 }
 .cavani_tm_about .services .interests{
 	width: 50%;
-	color: #cccccc;
+	color: #7c7c7c;
 }
 .cavani_tm_about .services .service_list ul,
 .cavani_tm_about .services .interests ul{
@@ -794,10 +792,10 @@ h6 { font-size: 16px; }
 }
 .cavani_tm_about .skills .programming{
 	width: 40%;
-	color: #cccccc;
+	color: #7c7c7c;
 }
 .cavani_tm_about .skills .language{
-	color: #cccccc;
+	color: #7c7c7c;
 	width: 50%;
 }
 .cavani_progress{
@@ -824,7 +822,7 @@ h6 { font-size: 16px; }
 	float: right;
 }
 .progress_inner .background{
-	background:#cccccc;
+	background:#7c7c7c;
 	width:100%;
 	min-width:100%;
 	position:relative;
@@ -869,26 +867,9 @@ h6 { font-size: 16px; }
 	float: left;
 	padding-left: 20px;
 }
-.circular_progress_bar .myCircle{
-	position: relative;
-	float: left;
-}
 .circular_progress_bar .list_inner{
 	width: 100%;
-	position: relative;
 	text-align: center;
-}
-.circular_progress_bar .list_inner:after{
-	content: '';
-	position: absolute;
-	width: 120px;
-	height: 120px;
-	border: 3px solid rgba(0,0,0,.07);
-	left: 0px;
-	top: 0px;
-	border-radius: 50%;
-	box-sizing: border-box;
-	z-index: -1;
 }
 .circular_progress_bar .title{
 	width: 100%;
@@ -920,7 +901,7 @@ h6 { font-size: 16px; }
 	height: auto;
 	clear: both;
 	float: left;
-	color: #cccccc;
+	color: #7c7c7c;
 }
 .cavani_tm_about .resume .wrapper2{
 	width: 100%;
@@ -956,7 +937,7 @@ h6 { font-size: 16px; }
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #cccccc;
+    background-color: #7c7c7c;
 }
 .cavani_tm_about .univ ul li{
 	margin: 0px;
@@ -991,10 +972,12 @@ h6 { font-size: 16px; }
 .cavani_tm_about .univ ul li .time span{
 	display: inline-block;
 	padding: 5px 25px;
-	background-color: #4CAF50;
+	background-color: #a6633c;
 	border-radius: 50px;
 	font-size: 14px;
 	white-space: nowrap;
+	color: #bbbbbb;
+
 }
 .cavani_tm_about .univ ul li .place{
 	padding-left: 0px;
@@ -1221,7 +1204,7 @@ h6 { font-size: 16px; }
 }
 .cavani_tm_portfolio .portfolio_filter ul li a{
 	text-decoration: none;
-    color: #cccccc;
+    color: #7c7c7c;
     font-family: "Poppins";
     font-weight: 500;
 	
@@ -1257,6 +1240,8 @@ h6 { font-size: 16px; }
 }
 .cavani_tm_portfolio .portfolio_list ul li .image{
 	position: relative;
+	width: 179px;
+	height: 119px;
 }
 .cavani_tm_portfolio .portfolio_list ul li .image img{
 	position: relative;
@@ -1446,11 +1431,6 @@ h6 { font-size: 16px; }
 	min-width: 100%;
 	opacity: 0;
 }
-.cavani_tm_modalbox .popup_details .top_image img{
-	position: relative;
-	min-width: 100%;
-	opacity: 0;
-}
 .cavani_tm_modalbox .popup_details .top_image .main{
 	position: absolute;
 	top: 0;
@@ -1560,6 +1540,8 @@ h6 { font-size: 16px; }
 }
 .cavani_tm_modalbox .additional_images ul li .my_image{
 	position: relative;
+	width: 179px;
+	height: 119px;
 }
 .cavani_tm_modalbox .additional_images ul li .my_image img{
 	opacity: 0;
@@ -1574,6 +1556,162 @@ h6 { font-size: 16px; }
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+}
+
+/*---------------------------------------------------*/
+/*	07.5) CAVANI COMPETENCES
+/*---------------------------------------------------*/
+
+.cavani_tm_competences{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 70px;
+}
+.cavani_tm_competences .competences_filter{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	text-align: left;
+	padding: 55px 0px 22px 0px;
+}
+.cavani_tm_competences .competences_filter ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.cavani_tm_competences .competences_filter ul li{
+	margin: 0px 40px 0px 0px;
+	display: inline-block;
+}
+.cavani_tm_competences .competences_filter ul li:last-child{
+	margin-right: 0px;
+}
+.cavani_tm_competences .competences_filter ul li a{
+	text-decoration: none;
+    color: #7c7c7c;
+    font-family: "Poppins";
+    font-weight: 500;
+
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.cavani_tm_competences .competences_filter ul li a.current,
+.cavani_tm_competences .competences_filter ul li a:hover{
+	color: #a6633c;
+}
+.cavani_tm_competences .competences_list{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.cavani_tm_competences .competences_list ul{
+	margin: 0px 0px 0px -30px;
+	list-style-type: none;
+}
+.cavani_tm_competences .competences_list ul li{
+	margin: 0px 0px 30px 0px;
+	float: left;
+	padding-left: 30px;
+}
+.cavani_tm_competences .competences_list ul li .list_inner{
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	border: 2px solid #7c7c7c;
+	padding: 25px;
+	text-align: center;
+	cursor: pointer;
+
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.cavani_tm_competences .competences_list ul li .list_inner:hover{
+	border-color: #a6633c;
+}
+.cavani_tm_competences .competences_list ul li .skill_box{
+	position: relative;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.cavani_tm_competences .competences_list ul li .skill_box .details{
+	height: auto;
+	clear: both;
+	float: left;
+}
+.cavani_tm_competences .competences_list ul li .skill_box .details h3{
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #7c7c7c;
+}
+.cavani_tm_competences .competences_list ul li .skill_box .details h3:hover{
+	color: #a6633c;
+}
+.cavani_tm_competences .hidden_content{
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	z-index: -11;
+}
+.cavani_tm_modalbox .competences_popup_details{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.cavani_tm_modalbox .competences_popup_details .main_details{
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: flex;
+	margin-bottom: 60px;
+}
+.cavani_tm_modalbox .competences_popup_details .main_details .textbox{
+	width: 70%;
+	padding-right: 40px;
+}
+.cavani_tm_modalbox .competences_popup_details .main_details .textbox p{
+	margin-bottom: 15px;
+}
+.cavani_tm_modalbox .competences_popup_details .main_details .textbox p:last-child{
+	margin-bottom: 0px;
+}
+.cavani_tm_modalbox .competences_popup_details .main_details .detailbox{
+	width: 30%;
+	padding-left: 40px;
+}
+.cavani_tm_modalbox .competences_popup_details .main_details .detailbox > ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.cavani_tm_modalbox .competences_popup_details .main_details .detailbox > ul > li{
+	margin: 0px 0px 10px 0px;
+	width: 100%;
+	float: left;
+}
+.cavani_tm_modalbox .competences_popup_details .main_details .detailbox > ul > li:last-child{
+	margin-bottom: 0px;
+}
+.cavani_tm_modalbox .competences_popup_details .main_details .detailbox .first{
+    font-weight: 700;
+	display: block;
+}
+.cavani_tm_modalbox .competences_popup_details .main_details .detailbox span a{
+	text-decoration: none;
+	color: #7d7789;
 }
 
 /*---------------------------------------------------*/
@@ -1593,7 +1731,7 @@ h6 { font-size: 16px; }
 	clear: both;
 	float: left;
 	margin-top: 62px;
-	color: #cccccc;
+	color: #7c7c7c;
 }
 .cavani_tm_news .news_list ul{
 	margin: 0px 0px 0px -30px;
@@ -1689,7 +1827,7 @@ h6 { font-size: 16px; }
 	        transition: all .3s ease;
 }
 .cavani_tm_news .news_list ul li .metabox a:hover{
-	color: #cccccc;
+	color: #7c7c7c;
 }
 .cavani_tm_news .news_list ul li .metabox .title h3{
 	font-size: 16px;
@@ -1699,7 +1837,7 @@ h6 { font-size: 16px; }
 .cavani_tm_news .news_list ul li .metabox .title a{
 	text-decoration: none;
 	display: inline-block;
-	color: #cccccc;
+	color: #7c7c7c;
 }
 .cavani_tm_news .news_hidden_details{
 	display: none;
@@ -1806,8 +1944,8 @@ h6 { font-size: 16px; }
 }
 .cavani_tm_contact .short_info ul li .list_inner a{
 	text-decoration: none;
-	color: #cccccc;
-	
+	color: #7c7c7c;
+	font-weight: 500;
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -1815,7 +1953,7 @@ h6 { font-size: 16px; }
 	        transition: all .3s ease;
 }
 .cavani_tm_contact .short_info ul li .list_inner a:hover{
-	color: #cccccc;
+	color: #7c7c7c;
 }
 .cavani_tm_contact .form{
 	width: 100%;
@@ -1905,7 +2043,7 @@ h6 { font-size: 16px; }
 	left: 0px;
 	right: 0px;
 	height: 70px;
-	background-color: #333333;
+	background-color: #bbbbbb;
 	z-index: 10;
 	line-height: 70px;
 	display: flex;
@@ -1938,7 +2076,7 @@ h6 { font-size: 16px; }
 	left: 0px;
 	bottom: 0px;
 	width: 70px;
-	background-color: #333333;
+	background-color: #bbbbbb;
 	z-index: 10;
 }
 .cavani_tm_right_border{
@@ -1947,7 +2085,7 @@ h6 { font-size: 16px; }
 	right: 0px;
 	bottom: 0px;
 	width: 70px;
-	background-color: #333333;
+	background-color: #bbbbbb;
 	z-index: 10;
 }
 
@@ -2190,7 +2328,7 @@ h6 { font-size: 16px; }
 #text-studies {
 	margin-top: 30px;
 	text-align: justify;
-	color: #cccccc;
+	color: #7c7c7c;
 }
 
 .form-cst {
@@ -2204,7 +2342,7 @@ h6 { font-size: 16px; }
 }
 
 #boldname {
-	color: #4CAF50;
+	color: #a6633c;
 }
 
 .portfoliolink {
@@ -2221,6 +2359,3 @@ h6 { font-size: 16px; }
 	backdrop-filter: blur(10px);
 	-webkit-backdrop-filter: blur(10px);
 }
-
-
-
