@@ -2303,6 +2303,9 @@ h6 { font-size: 16px; }
 	.cavani_tm_news .news_list ul{margin: 0px;}
 	.cavani_tm_news .news_list ul li{width: 100%;padding-left: 0px;}
 	.cavani_tm_news .news_list ul li .details{padding: 15px 20px 0px 20px;}
+	.cavani_tm_competences .competences_list ul{margin: 0px;}
+	.cavani_tm_competences .competences_list ul li{width: 100%;padding-left: 0px;}
+	.competence-card{width: 100%;max-width: 290px;margin: 0 auto;}
 	.cavani_tm_title span{letter-spacing: 4px;}
 	.cavani_tm_title span:after{margin-left: 15px;}
 	.cavani_tm_modalbox .box_inner{width: 300px;top: 100px;bottom: 40px;}
