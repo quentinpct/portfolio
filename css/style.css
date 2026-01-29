@@ -791,7 +791,6 @@ h6 { font-size: 16px; }
 	justify-content: space-between;
 }
 .cavani_tm_about .skills .programming{
-	width: 40%;
 	color: #7c7c7c;
 }
 .cavani_tm_about .skills .language{
@@ -2384,4 +2383,19 @@ span.icons.img{
 .competence-card .icons img {
     width: 36px;
     height: 36px;
+}
+
+.span .blc{
+	display: block;
+	margin-bottom: 10px;
+	font-size: 1px;
+}
+
+.b {
+	font-size: 22px;
+}
+
+.bi {
+	font-size: 18px;
+	max-width: 60px;
 }
