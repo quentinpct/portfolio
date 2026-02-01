@@ -195,7 +195,16 @@ function cavani_tm_portfolio_popup(){
 		cavani_tm_data_images();
 		return false;
 	});
-	closePopup.on('click',function(){
+	closePopup.off().on('click',function(e){
+		e.preventDefault();
+		modalBox.removeClass('opened');
+		modalBox.find('.description_wrap').html('');
+		return false;
+	});
+	
+	// Aussi gérer le click sur le lien du close
+	closePopup.find('a').off().on('click', function(e){
+		e.preventDefault();
 		modalBox.removeClass('opened');
 		modalBox.find('.description_wrap').html('');
 		return false;

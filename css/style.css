@@ -1347,7 +1347,7 @@ h6 { font-size: 16px; }
 	position: absolute;
 	top: 70px;
 	bottom: 70px;
-	width: 968px;
+	width: 950px;
 	left: 50%;
 	transform: translateX(-50%);
 	background-color: #fff;
@@ -1369,19 +1369,35 @@ h6 { font-size: 16px; }
 	margin-top: 0px;
 }
 .cavani_tm_modalbox .close{
-	position: fixed;
-	left: 100%;
-	top: 0px;
-	margin-left: 20px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
 	z-index: 111111;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all .3s ease;
+	width: 40px;
+	height: 40px;
+	background-color: #f5f5f5;
+	border-radius: 50%;
 }
 .cavani_tm_modalbox .close a{
 	text-decoration: none;
-	color: #fff;
+	color: #333;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px;
+	transition: all .3s ease;
+}
+.cavani_tm_modalbox .close a:hover{
+	transform: rotate(90deg);
 }
 .cavani_tm_modalbox .close .svg{
-	width: 50px;
-	height: 50px;
+	width: 30px;
+	height: 30px;
 }
 .cavani_tm_modalbox .description_wrap{
 	position: relative;
@@ -1390,22 +1406,6 @@ h6 { font-size: 16px; }
 	float: left;
 	overflow: hidden;
 	padding: 50px;
-	overflow-y: scroll;
-}
-.cavani_tm_modalbox .description_wrap::-webkit-scrollbar{
-  width: 11px;
-}
-.aali_tm_modalbox .description_wrap{
-  scrollbar-width: thin;
-  scrollbar-color: #dfe2e7 #fff;
-}
-.cavani_tm_modalbox .description_wrap:-webkit-scrollbar-track{
-  background: #fff;
-}
-.cavani_tm_modalbox .description_wrap::-webkit-scrollbar-thumb{
-  background-color: #dfe2e7;
-  border-radius: 10px;
-  border: 3px solid #fff;
 }
 .cavani_tm_portfolio .hidden_content{
 	display: none;
