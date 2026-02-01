@@ -1746,14 +1746,24 @@ h6 { font-size: 16px; }
 .cavani_tm_news .news_list ul li .list_inner{
 	position: relative;
 	width: 100%;
-	height: auto;
+	height: 119px;
 	clear: both;
 	float: left;
-	border: 2px solid rgba(255, 255, 255, 0.07);
+	overflow: hidden;
+}
+.cavani_tm_news .news_list ul li.cv-box .list_inner{
+	border-color: #a6633c;
+	background-color: rgba(166, 99, 60, 0.1);
+}
+.cv-contact-box .list_inner{
+	background-color: rgba(166, 99, 60, 0.2);
+	border-color: #a6633c;
 }
 .cavani_tm_news .news_list ul li .image{
 	position: relative;
 	overflow: hidden;
+	width: 179px;
+	height: 119px;
 }
 .cavani_tm_news .news_list ul li .image img{
 	position: relative;
@@ -1910,7 +1920,6 @@ h6 { font-size: 16px; }
 	width: 100%;
 	height: auto;
 	clear: both;
-	float: left;
 	margin-top: 62px;
 }
 .cavani_tm_contact .short_info ul{
@@ -1919,19 +1928,21 @@ h6 { font-size: 16px; }
 }
 .cavani_tm_contact .short_info ul li{
 	margin: 0px 0px 30px 0px;
-	width: 33.3333%;
-	float: left;
-	padding-left: 30px;
+	width: 100%;
+	padding-left: 0px;
 }
 .cavani_tm_contact .short_info ul li .list_inner{
 	width: 100%;
-	height: auto;
+	height: 80px;
 	clear: both;
 	float: left;
 	position: relative;
 	border: 2px solid rgba(255, 255, 255, 0.07);
-	text-align: center;
-	padding: 32px 25px;
+	padding: 24px 25px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 20px;
 }
 .cavani_tm_contact .short_info ul li .list_inner span{
 	display: block;
@@ -1953,6 +1964,31 @@ h6 { font-size: 16px; }
 	        transition: all .3s ease;
 }
 .cavani_tm_contact .short_info ul li .list_inner a:hover{
+	color: #7c7c7c;
+}
+
+.cavani_tm_contact .short_info ul li .list_inner i{
+	display: block;
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 24px;
+}
+
+.cavani_tm_contact .short_info ul li .list_inner .contact-info{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.cavani_tm_contact .short_info ul li .list_inner .contact-info .label{
+	font-size: 14px;
+	color: #7c7c7c;
+	margin-bottom: 5px;
+}
+
+.cavani_tm_contact .short_info ul li .list_inner .contact-info .value{
+	font-size: 18px;
+	font-weight: 600;
 	color: #7c7c7c;
 }
 .cavani_tm_contact .form{
@@ -2398,4 +2434,9 @@ span.icons.img{
 .bi {
 	font-size: 18px;
 	max-width: 60px;
+}
+
+.box-logo {
+	width: 90px;
+	height: 90px;
 }
