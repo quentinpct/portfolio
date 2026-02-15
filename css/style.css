@@ -304,13 +304,13 @@ h6 { font-size: 16px; }
 }
 
 .cavani_tm_header .menu ul li.mleave.active a{
-	color: #bbbbbb;
+	color: #a6633c;
 }
 .cavani_tm_header .menu ul li.active a{
-	color: #bbbbbb;
+	color: #d9d9d9;
 }
 .cavani_tm_header .menu ul li a:hover{
-	color: #bbbbbb;
+	color: #d9d9d9;
 }
 
 /*---------------------------------------------------*/
@@ -2236,6 +2236,54 @@ h6 { font-size: 16px; }
 	background-size: cover;
 	background-position: center;
 	background-image: url("..//img/about/3.jpg");
+}
+
+/*---------------------------------------------------*/
+/*	PORTFOLIO RESPONSIVE FIXES
+/*---------------------------------------------------*/
+
+@media (max-width: 1200px) {
+	.cavani_tm_portfolio .portfolio_filter ul li{
+		margin: 0px 20px 10px 0px;
+	}
+	.cavani_tm_portfolio .portfolio_filter ul li a{
+		font-size: 14px;
+		padding: 8px 15px;
+	}
+	.cavani_tm_news .news_list ul li{
+		width: 50%;
+	}
+}
+
+@media (max-width: 768px) {
+	.cavani_tm_portfolio .portfolio_filter{
+		text-align: center;
+		padding: 30px 0px 15px 0px;
+	}
+	.cavani_tm_portfolio .portfolio_filter ul{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.cavani_tm_portfolio .portfolio_filter ul li{
+		margin: 0px 10px 10px 0px;
+		display: block;
+		float: none;
+	}
+	.cavani_tm_portfolio .portfolio_filter ul li a{
+		font-size: 13px;
+		padding: 6px 12px;
+		display: inline-block;
+	}
+	.cavani_tm_news .news_list ul li{
+		width: 100%;
+		padding-left: 0px;
+		margin-bottom: 20px;
+	}
+	.cavani_tm_news .news_list ul li .list_inner{
+		height: auto;
+		min-height: 119px;
+	}
 }
 
 /*---------------------------------------------------*/
